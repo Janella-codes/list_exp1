@@ -30,6 +30,7 @@
     "react-dom": "0.0.0-experimental-8039e6d0b-20231026",
     "tailwindcss": "3.3.3",
     "ts-node": "^10.9.1",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "vscode-icons-ts": "^0.1.2"
   }
 }
