@@ -1,6 +1,8 @@
 
+import { SideNav } from '@/components/SideNav';
 import TodosComponent from '@/components/todo-component';
 import prisma from '@/lib/prisma'
+import { UserButton } from '@clerk/nextjs';
 
 
 
@@ -15,10 +17,17 @@ export default async function TodosPage() {
 
 
     return (
+      
         <main className='flex min-h-screen flex-col items-center w-full p-24'>
-            <h1 className='text-4xl font-bold'>Todos</h1>
-
+            
+            <div>
+      <UserButton afterSignOutUrl="/"/>
+    </div>
+    <h1 className='text-4xl font-bold'>Todos</h1>
           <TodosComponent todos={todos}/>
+      
+  
+         
         </main>
     );
 };

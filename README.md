@@ -1,3 +1,22 @@
+Huge shout out to ByteGrad - explained everything perfectly easy to follow and simplified a lot of things I was struggling with 
+
+
+Mostly I followed ByteGrad on youtube - Awesome tutorial 
+link:
+
+https://youtu.be/RadgkoJrhu0?si=FU5S0K3aKmZ5KBHU
+
+
+I barrowed a template
+
+Getting Started with Vercel Postgres: 
+
+https://vercel.com/docs/storage/vercel-postgres/quickstart
+
+
+
+
+
 ---
 name: Vercel Postgres + Prisma Next.js Starter
 slug: postgres-prisma
