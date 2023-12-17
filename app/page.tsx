@@ -1,4 +1,5 @@
 
+import Pic from '@/components/ProfilePic';
 import { SideNav } from '@/components/SideNav';
 import TodosComponent from '@/components/todo-component';
 import prisma from '@/lib/prisma'
@@ -25,6 +26,7 @@ export default async function TodosPage() {
     </div>
     <h1 className='text-4xl font-bold'>Todos</h1>
           <TodosComponent todos={todos}/>
+
       
   
          
