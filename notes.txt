@@ -3,12 +3,30 @@ janelle115@mycci
 
 DB name: trans_turbo3
 
-DATABASE_URL='mysql://je7uuxoltaghsvvf0y1j:************@aws.connect.psdb.cloud/trans_turbo3?sslaccept=strict'
+prod branch:
+
+DATABASE_URL='mysql://rtki0xqjyo9cyo8mu8vj:pscale_pw_V1oEo9oJ6PVZNZALg7teimmIdcw44g3Lmv2alfFtaOW@aws.connect.psdb.cloud/trans_turbo3?sslaccept=strict'
+
+
+
 
 
 dev branch
 
-DATABASE_URL='mysql://icmfy7cyw1ov17veah9y:pscale_pw_PcqRBumqqY9hDbc4C6mQuvL6E0Rp6mUCyDjLLGaBJSH@aws.connect.psdb.cloud/trans_turbo3?sslaccept=strict'
+DATABASE_URL='mysql://ozvmspnpu3nbv15dibhf:pscale_pw_kx6CAskZQGhJQZXcuLj4u7zpqv2mg33MThUKuyyThSj@aws.connect.psdb.cloud/trans_turbo3?sslaccept=strict'
+
+DATABASE_URL='mysql://ozvmspnpu3nbv15dibhf:pscale_pw_kx6CAskZQGhJQZXcuLj4u7zpqv2mg33MThUKuyyThSj@aws.connect.psdb.cloud/trans_turbo3?sslaccept=strict'
+
+
+
+
+old prod 
+
+PW:
+
+DATABASE_URL='mysql://zpdl5n7rj1gz4q4jerh1:pscale_pw_ldfFwCOh447j8IVdHaEbziKGaVr5qpSSpVYseZZtpgW@aws.connect.psdb.cloud/trans_turbo2?sslaccept=strict'
+
+DATABASE_URL='mysql://zpdl5n7rj1gz4q4jerh1:pscale_pw_ldfFwCOh447j8IVdHaEbziKGaVr5qpSSpVYseZZtpgW@aws.connect.psdb.cloud/trans_turbo2?sslaccept=strict'
 
 
 -------------------------------------------
