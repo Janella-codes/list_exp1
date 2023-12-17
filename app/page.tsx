@@ -27,7 +27,7 @@ export default async function TodosPage() {
     <h1 className='text-4xl font-bold'>Todos</h1>
           <TodosComponent todos={todos}/>
 
-      
+      <Pic/>
   
          
         </main>
