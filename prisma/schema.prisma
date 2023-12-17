@@ -35,3 +35,10 @@ model todo {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model todoList {
+  id        Int      @id @default(autoincrement())
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
