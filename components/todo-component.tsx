@@ -36,11 +36,11 @@ export default function TodosComponent({
             });
             // input validation here
            await addTodo(formData);
-        }} className='flex flex-col w-[300px] m-16'>
-                <input 
-                  type="text"
+        }} className='flex flex-col w-[300px] m-16 gap-2 border-b px-4 py-2'>
+                <textarea 
+                 className="flex-grow resize-none overflow-hidden p-4 text-lg outline-none"
                   name="name"
-                  className='px-4 py-2 mb-3'
+                 
                   placeholder='Todo name'
                   required 
                 />

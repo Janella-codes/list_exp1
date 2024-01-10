@@ -11,6 +11,7 @@ import { UserButton } from '@clerk/nextjs';
 
 
 export default async function TodosPage() {
+  
   'use server'
 
     const todos = await prisma.todo.findMany();
@@ -26,9 +27,9 @@ export default async function TodosPage() {
     </div>
     <h1 className='text-4xl font-bold'>Todos</h1>
           <TodosComponent todos={todos}/>
-
+ 
       <Pic/>
-  
+      <SideNav/>
          
         </main>
     );
