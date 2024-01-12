@@ -19,19 +19,20 @@ export default async function TodosPage() {
 
 
     return (
-      
-        <main className='flex min-h-screen flex-col items-center w-full p-24'>
-            
-            <div>
-      <UserButton afterSignOutUrl="/"/>
-    </div>
-    <h1 className='text-4xl font-bold'>Todos</h1>
-          <TodosComponent todos={todos}/>
- 
-      <Pic/>
-      <SideNav/>
-         
-        </main>
+      <><div className='container mx-auto flex items-start'>
+        <SideNav />
+      </div><main className='flex min-h-screen flex-col items-center w-full p-24'>
+
+
+          <h1 className='text-4xl font-bold'>Todos</h1>
+          <TodosComponent todos={todos} />
+
+
+          <Pic />
+
+
+
+        </main></>
     );
 };
 

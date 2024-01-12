@@ -1,3 +1,4 @@
+import TodosPage2 from "@/components/new/newpage";
 import { UserButton, useSession } from "@clerk/nextjs";
 
 import Link from "next/link";
@@ -11,10 +12,13 @@ export function SideNav() {
     <nav className="sticky top-0 px-2 py-4">
         <ul className="flex flex-col items-start gap-2 whitespace-nowrap">
             <li>
-                <Link href="/">
+            <UserButton />
+            </li>
+            <li>
+                <Link href=".//new/newpage.tsx">
                     
                         <span className="flex items-center gap-4">
-                            {/* home icon */}
+                          {/*home icon*/}
                         <span className="hidden text-lg md:inline">Home</span>
                         </span>
                  
@@ -22,8 +26,7 @@ export function SideNav() {
            </li>
  
                 <li>
-                <Link href="/">
-                   
+                <Link href={`/profiles/`}>
                         <span className="flex items-center gap-4">
                             {/*account icon*/}
                         <span className="hidden text-lg md:inline">Profile</span>
@@ -31,14 +34,7 @@ export function SideNav() {
                   
                     </Link>
                 </li>
-         
-                        <li>
-                        <span className="hidden text-lg text-red-700 md:inline">
-                          Log Out
-                        </span>
-              
-         
-                </li>
+      
       
         </ul>
     </nav>
